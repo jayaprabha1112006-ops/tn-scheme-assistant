@@ -1,0 +1,57 @@
+id: tn_bcmbc_prize_schemes
+name_en: "Prize Schemes to the Students (State Level Prizes)"
+name_ta: ""
+department: "Backward Classes, Most Backward Classes and Minorities Welfare Department, Tamil Nadu"
+scheme_type: state
+
+level: [school]
+
+benefit:
+  type: cash_prize
+  summary: "Cash prizes for top-ranking students, with separate amounts for boys and girls."
+  prizes:
+    - rank: 1
+      community: BC
+      boys_inr: 50000
+      girls_inr: 25000
+    - rank: 2
+      community: BC
+      boys_inr: 30000
+      girls_inr: 20000
+    - rank: 3
+      community: BC
+      boys_inr: 20000
+      girls_inr: 15000
+  tie_rule: "If more than one student secures the same marks, all receive the award."
+
+eligibility:
+  state: "Tamil Nadu"
+  must_be_student: true
+  community: [BC, MBC, DNC]
+  school_type: [government, government_aided, private]
+  tamil_first_language: true
+  no_income_limit: true
+  max_family_income_inr: null
+  gender: any
+  award_basis: merit_rank
+  exam_or_class: null
+
+exclusions:
+  - "State-level topper students already awarded prizes by the Education Department."
+
+documents:
+  - "Proof of identity (Aadhaar or other document directed by the authority)"
+  - "Community certificate (BC/MBC/DNC)"
+  - "Admission letter or proof of enrollment"
+  - "Proof of language studied (Tamil as first language)"
+  - "Any other document if required"
+
+application:
+  mode: offline
+  how_to_apply: "Collect the form from your school, fill it in with a passport photo and document copies, submit it to the school, and ask for an acknowledgment receipt."
+  deadline: null
+
+official_url: "https://www.myscheme.gov.in/schemes/psslp"
+source_checked_on: "2026-11-02"
+verified_on_official_site: false
+notes: "Page lists prize amounts for BC only. Amounts for MBC and DNC are not shown. Page does not say which exam or class the ranking is based on. Check the guideline PDF."

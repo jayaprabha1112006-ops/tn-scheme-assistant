@@ -1,0 +1,44 @@
+id: tn_bcmbc_free_education
+name_en: "Free Education Scheme (BC/MBC/DNC)"
+name_ta: ""
+department: "Backward Classes, Most Backward Classes and Minorities Welfare Department, Tamil Nadu"
+scheme_type: state
+
+level: [college]
+
+benefit:
+  type: fee_reimbursement
+  summary: "Special fees, non-refundable compulsory fees, and full examination fee are paid for eligible students."
+  amount_inr: null
+
+eligibility:
+  state: "Tamil Nadu"
+  must_be_student: true
+  community: [BC, MBC, DNC]
+  course_types: [UG]
+  allowed_degrees: [BA, BSc, BCom]
+  course_duration_years: 3
+  institution_type: [government_arts_science, government_aided_arts_science]
+  max_family_income_inr: null
+  gender: any
+  min_marks_percent: null
+
+exclusions: []
+
+documents:
+  - "Proof of identity (Aadhaar or other document directed by the authority)"
+  - "Community certificate"
+  - "Admission letter or proof of enrollment (Government or Government Aided Arts and Science College)"
+  - "Bank account details for fee reimbursement"
+  - "Previous academic records (as required by the college)"
+  - "Any other document if required"
+
+application:
+  mode: offline
+  how_to_apply: "Collect the form from your college, fill it in with a passport photo and document copies, submit it to the college, and ask for an acknowledgment receipt."
+  deadline: null
+
+official_url: "https://www.myscheme.gov.in/schemes/fes"
+source_checked_on: "2026-11-02"
+verified_on_official_site: false
+notes: "Launched 7 May 2012. No income limit is stated on myScheme. Only 3-year BA/BSc/BCom in government or government-aided arts and science colleges. Engineering, medical, and other professional courses fall under a separate scheme. Check the guideline PDF for the current list of covered fees."

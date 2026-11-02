@@ -1,0 +1,73 @@
+id: central_postmatric_disability
+name_en: "Post-Matric Scholarship for Students with Disabilities (Central)"
+name_ta: ""
+department: "Department of Empowerment of Persons with Disabilities (DEPwD), Government of India"
+scheme_type: central
+
+level: [school, college]
+
+benefit:
+  type: scholarship
+  summary: "Monthly maintenance allowance (depends on course group), annual disability allowance, and annual book allowance."
+  maintenance_allowance_inr_per_month:
+    group_1:
+      description: "Bachelor's/PG degrees in medicine, engineering/technology, architecture, fashion technology, management, business/finance, computer science, agriculture, veterinary and allied sciences"
+      hosteller: 1600
+      day_scholar: 750
+    group_2:
+      description: "Professional degree/diploma/certificate courses such as pharmacy, LLB, para-medical, mass communication, hotel management, tourism, interior decoration, nutrition, commercial art, financial services"
+      hosteller: 1100
+      day_scholar: 700
+    group_3:
+      description: "Other graduate degrees not in groups 1 and 2, such as BA, BSc, BCom"
+      hosteller: 950
+      day_scholar: 650
+    group_4:
+      description: "Post-matric non-degree courses with Class 10 entry: Class 11-12 (general and vocational), ITI, 3-year polytechnic diplomas"
+      hosteller: 900
+      day_scholar: 550
+  disability_allowance_inr_per_year:
+    visual: 4000
+    hearing: 2000
+    orthopaedic: 2000
+    intellectual: 4000
+    other: 2000
+  book_allowance_inr_per_year: 1500
+
+eligibility:
+  state: any
+  must_be_student: true
+  qualification_levels: [class_11, class_12, polytechnic, post_matric_diploma_certificate, bachelors, masters]
+  institution_recognition: "UGC/AICTE recognised"
+  disability_percent_min: 40
+  max_family_income_inr: 250000
+  community: any
+  gender: any
+  must_not_hold_other_scholarship: true
+  max_scholarship_students_per_family: 2
+
+exclusions:
+  - "More than two students per family (twins are both allowed if the second child is a twin)."
+  - "Students holding any other scholarship or stipend."
+  - "Students repeating a class do not get the scholarship for the repeated year."
+  - "False information leads to recovery of the amount with 15% compound interest and blacklisting."
+
+documents:
+  - "Photograph"
+  - "Proof of age"
+  - "Disability certificate (Rights of Persons with Disabilities Act 2016)"
+  - "Income certificate"
+  - "Tuition fee receipt"
+  - "Last academic qualification certificate"
+  - "Bank details of the applicant or parent/guardian"
+
+application:
+  mode: online
+  portal: "National Scholarship Portal (scholarships.gov.in)"
+  how_to_apply: "Register on NSP, log in, fill the application form, upload documents, and final submit. The institution must also register on NSP and verify the details."
+  deadline: null
+
+official_url: "https://www.myscheme.gov.in/schemes/post-dis"
+source_checked_on: "2026-11-02"
+verified_on_official_site: false
+notes: "Central scheme, applies in all states. Income limit is 2.5 lakh per annum (the pre-matric scheme's limit is 2 lakh). Maintenance allowance depends on the course group. Deadlines change every year, so check NSP."

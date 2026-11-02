@@ -1,0 +1,60 @@
+id: central_prematric_disability
+name_en: "Pre-Matric Scholarship for Students with Disabilities (Central)"
+name_ta: ""
+department: "Department of Empowerment of Persons with Disabilities (DEPwD), Government of India"
+scheme_type: central
+
+level: [school]
+
+benefit:
+  type: scholarship
+  summary: "Monthly maintenance allowance, annual book grant, and annual disability allowance."
+  maintenance_allowance_inr_per_month:
+    day_scholar: 500
+    hosteller: 800
+  maintenance_months_per_year: 12
+  book_grant_inr_per_year: 1000
+  disability_allowance_inr_per_year:
+    visual: 4000
+    hearing: 2000
+    orthopaedic: 2000
+    intellectual: 4000
+    other: 2000
+
+eligibility:
+  state: any
+  must_be_student: true
+  classes: [9, 10]
+  school_type: [government, government_recognised, cbse, state_board]
+  disability_percent_min: 40
+  max_family_income_inr: 200000
+  community: any
+  gender: any
+  must_not_hold_other_scholarship: true
+  max_scholarship_students_per_family: 2
+
+exclusions:
+  - "More than two students per family (twins are both allowed if the second child is a twin)."
+  - "Students holding any other scholarship or stipend."
+  - "Students repeating a class do not get the scholarship for the repeated year."
+  - "False information leads to recovery of the amount with 15% compound interest and blacklisting."
+
+documents:
+  - "Photograph"
+  - "Proof of age"
+  - "Disability certificate from the competent authority"
+  - "Income certificate"
+  - "Tuition fee receipt"
+  - "Last academic qualification certificate"
+  - "Bank details of the applicant or parent/guardian"
+
+application:
+  mode: online
+  portal: "National Scholarship Portal (scholarships.gov.in)"
+  how_to_apply: "Register on NSP, log in, fill the application form, upload documents, and final submit. The school must also register on NSP and verify the details."
+  deadline: null
+
+official_url: "https://www.myscheme.gov.in/schemes/pre-dis"
+source_checked_on: "2026-11-02"
+verified_on_official_site: false
+notes: "Central scheme, applies in all states including Tamil Nadu. Income limit is 2 lakh per annum from all sources. Deadlines change every year, so check NSP."

@@ -1,0 +1,38 @@
+id: tn_adtw_free_education
+name_en: "Adi Dravidar and Tribal Welfare: Free Education up to 12th Std."
+name_ta: ""
+department: "Adi Dravidar and Tribal Welfare Department, Tamil Nadu"
+scheme_type: state
+
+level: [school]
+
+benefit:
+  type: fee_reimbursement
+  summary: "Full reimbursement of tuition fees for students up to 12th standard."
+  amount_inr: null
+
+eligibility:
+  state: "Tamil Nadu"
+  must_be_student: true
+  community: [AD, ST, AD_CHRISTIAN]
+  max_class: 12
+  max_family_income_inr: null
+  gender: any
+  min_marks_percent: null
+
+documents:
+  - "Proof of identity (Aadhaar or other document directed by the authority)"
+  - "Community certificate (Adi Dravidar / Tribal / Adi Dravidar converted to Christianity)"
+  - "Income certificate (if applicable)"
+  - "Proof of admission"
+  - "Any other document if required"
+
+application:
+  mode: offline
+  how_to_apply: "Student or guardian contacts the school Headmaster with the required documents."
+  deadline: null
+
+official_url: "https://www.myscheme.gov.in/schemes/adtwsfe"
+source_checked_on: "2026-11-02"
+verified_on_official_site: false
+notes: "No income limit is stated on myScheme. Income certificate is listed as 'if applicable'. Verify on the ADTW department site."

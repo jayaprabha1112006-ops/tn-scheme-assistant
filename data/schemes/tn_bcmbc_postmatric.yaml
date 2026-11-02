@@ -1,0 +1,48 @@
+id: tn_bcmbc_postmatric
+name_en: "Postmatric Scholarship (BC/MBC/DNC, Tamil Nadu)"
+name_ta: ""
+department: "Backward Classes, Most Backward Classes and Minorities Welfare Department, Tamil Nadu"
+scheme_type: state
+
+level: [school]
+
+benefit:
+  type: scholarship
+  summary: "Tuition fee assistance and full examination fee coverage for 12th standard students."
+  tuition_assistance_inr_total: 500
+  tuition_assistance_note: "Rs 50 per month for 10 months"
+  exam_fee_covered_for: [class_12]
+
+eligibility:
+  state: "Tamil Nadu"
+  must_be_student: true
+  community: [BC, MBC, DNC]
+  classes: [11, 12]
+  medium_of_instruction: english
+  gender: any
+  # These two rules apply to BC students only, not MBC or DNC
+  conditional_rules:
+    - applies_to_community: [BC]
+      max_family_income_inr: 100000
+      no_graduate_in_family: true
+
+exclusions: []
+
+documents:
+  - "Proof of identity (Aadhaar or other document directed by the authority)"
+  - "Community certificate (BC/MBC/DNC)"
+  - "Proof of income (BC students only)"
+  - "Admission letter or proof of enrollment (11th/12th standard)"
+  - "Bank account details"
+  - "No-graduate certificate (BC students only)"
+  - "Any other document if required"
+
+application:
+  mode: offline
+  how_to_apply: "Collect the form from your school, fill it in with a passport photo and document copies, submit it to the school, and ask for an acknowledgment receipt."
+  deadline: null
+
+official_url: "PASTE-LINK-FROM-ADDRESS-BAR"
+source_checked_on: "2026-11-02"
+verified_on_official_site: false
+notes: "Income limit and no-graduate rule are stated for BC students only. The page does not give any income rule for MBC or DNC. Do not assume they have no limit. Check the department guideline PDF. Only English medium schools qualify."

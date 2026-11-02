@@ -58,3 +58,18 @@
     holds_other_scholarship: false
   eligible: [tn_bcmbc_prize_schemes]
   maybe: [tn_bcmbc_postmatric]
+
+ - name: "E: BC class 11, Tamil medium, 50% disability"
+  profile:
+    state: Tamil Nadu
+    stage: school
+    class: 11
+    community: BC
+    school_type: government
+    medium: tamil
+    tamil_first_language: true
+    family_income: 80000
+    disability_percent: 50
+    holds_other_scholarship: false
+  eligible: [central_postmatric_disability, tn_bcmbc_prize_schemes]
+  maybe: []

@@ -1,0 +1,60 @@
+- name: "A: MBC girl, class 11, English medium, govt school"
+  profile:
+    state: Tamil Nadu
+    stage: school
+    class: 11
+    community: MBC
+    school_type: government
+    medium: english
+    tamil_first_language: true
+    family_income: 90000
+    disability_percent: 0
+    holds_other_scholarship: false
+    graduate_in_family: false
+  eligible: [tn_bcmbc_postmatric, tn_bcmbc_prize_schemes]
+  maybe: []
+
+- name: "B: BC student, BSc at a govt-aided arts college"
+  profile:
+    state: Tamil Nadu
+    stage: college
+    degree: BSc
+    degree_type: UG
+    institution_type: government_aided_arts_science
+    community: BC
+    family_income: 150000
+    disability_percent: 0
+    holds_other_scholarship: false
+  eligible: [tn_bcmbc_free_education]
+  maybe: []
+
+- name: "C: BC student, class 10, 50% disability"
+  profile:
+    state: Tamil Nadu
+    stage: school
+    class: 10
+    community: BC
+    school_type: government
+    medium: tamil
+    tamil_first_language: true
+    family_income: 180000
+    disability_percent: 50
+    holds_other_scholarship: false
+    graduate_in_family: false
+  eligible: [central_prematric_disability, tn_bcmbc_prize_schemes]
+  maybe: []
+
+- name: "D: BC class 11, English medium, graduate_in_family unknown"
+  profile:
+    state: Tamil Nadu
+    stage: school
+    class: 11
+    community: BC
+    school_type: government
+    medium: english
+    tamil_first_language: true
+    family_income: 80000
+    disability_percent: 0
+    holds_other_scholarship: false
+  eligible: [tn_bcmbc_prize_schemes]
+  maybe: [tn_bcmbc_postmatric]
